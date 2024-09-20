@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+}
+
+.innerContainer {
+  width: 100%;
+  background-image: url(../../Assests/HeroBack.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 13rem;
+}
+
+.hero {
+  width: 45%;
+  float: right;
+  margin-right: 2rem;
+}
+
+.hero h2 {
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+.hero p {
+  font-family: Lato;
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  width: 80%;
+}
+
+.heroImage {
+  margin-bottom: 3rem;
+}

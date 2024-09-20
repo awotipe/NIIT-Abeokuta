@@ -1,0 +1,72 @@
+.container {
+    width: 100%;
+  }
+  
+  .hero {
+    background-image: url(../../Assests/RegisterHero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 3rem;
+  }
+  
+  .hero h3 {
+    font-family: Lato;
+    font-size: 33px;
+    font-weight: 700;
+    /* line-height: 58.09px; */
+    color: #0E3997;
+    margin-left: 4rem;
+    text-shadow: 0px 4px 4px #00000040;
+  }
+  
+  
+  .register{
+    width: 40%;
+    margin: auto;
+    background: #0E399708;
+    padding: 3rem 3rem 7rem 3rem;
+    margin-top: 8rem;
+    margin-bottom: 12rem;
+    border-radius: 10px;
+  }
+  
+  .register input{
+    width: 100%;
+    border: 1px solid #00000080;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .submit button{
+    width: 100%;
+    border: 1px solid #0E3997;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #0E3997;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    letter-spacing: 0.15em;
+    margin-top: 1rem;
+  }
+
+  .register h3{
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 39.6px;
+    text-align: center;
+    color: #333333;
+    padding-bottom: 2rem;
+  }
+
+  .register label{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    color: #333333;
+  }
