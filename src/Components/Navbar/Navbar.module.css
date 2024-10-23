@@ -1,5 +1,8 @@
 .container{
     width: 100%;
+    position: fixed;
+    z-index: 8;
+    background-color: #fff;
 }
 
 header{
@@ -40,4 +43,55 @@ nav button{
     font-size: 1rem;
     color: #fff;
     border: none;
+}
+
+.hamburger{
+    display: none;
+}
+
+.mobileMenu{
+    display: none;
+}
+
+@media screen and (max-width: 850px){
+    .hamburger{
+        display: block;
+    }
+
+    .navMenu{
+        display: none;
+    }
+
+    .mobileMenu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        justify-content: space-between;
+        top: -100vh;
+        left: 0;
+        background-color: blue;
+        align-items: center;
+        transition: 0.3s;
+      }
+
+      .active {
+        top: 80px;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        font-size: 1rem;
+        position: absolute;
+        justify-content: space-between;
+        right: 0;
+        background-color: blue;
+        align-items: center;
+        transition: 0.3s;
+      }
+
+      .active li {
+        padding: 1.2rem 1rem;
+        margin: 0 1rem;
+        border-bottom: 1px solid rgb(10, 10, 56);
+      }
 }

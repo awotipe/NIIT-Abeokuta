@@ -6,6 +6,7 @@ import Instagram from "../../Assests/instagram.png";
 import Twitter from "../../Assests/twitter.png";
 import Youtube from "../../Assests/youtube.png";
 import Linkedin from "../../Assests/linkedin.png";
+import { Link } from "react-router-dom";
 import { TiLocation } from "react-icons/ti";
 import { IoCall } from "react-icons/io5";
 import { PiPaperPlaneTiltFill } from "react-icons/pi";
@@ -17,7 +18,9 @@ const Footer = () => {
         <hr />
         <div className={classes.footWrap}>
           <div className={classes.footLeft}>
+           <Link to="/">
             <img src={Logo} alt="Logo" />
+            </Link>
             <p>
               NIIT Agbara, Suite E, Agbara Estate shopping Mall, Beside Stanbic
               IBTC Beach Town, Agbara.

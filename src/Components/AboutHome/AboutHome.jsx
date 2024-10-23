@@ -3,6 +3,7 @@ import classes from "./AboutHome.module.css";
 import Logo from "../../Assests/Logo.png";
 import Student from "../../Assests/AboutImage.png";
 import Background from "../../Assests/backImage.png";
+import { Link } from "react-router-dom";
 
 const AboutHome = () => {
   return (
@@ -26,7 +27,9 @@ const AboutHome = () => {
           leading training companies owing to its vast and comprehensive array
           of talent development programs.
         </p>
+        <Link to="/aboutus">
         <button>Learn More</button>
+        </Link>
       </div>
       <div className={classes.aboutImage}>
         <img src={Student} alt="Student"/>

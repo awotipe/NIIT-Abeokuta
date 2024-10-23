@@ -126,3 +126,55 @@ form {
   width: 30%;
   margin: auto;
 }
+
+
+@media screen and (max-width: 768px) {
+  .footWrap {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+
+  .footRight {
+    width: 80%;
+  }
+  
+  .footLeft {
+    width: 90%;
+  }
+  
+  .subscribe {
+    width: 60%;
+  }
+
+  .copyright hr{
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .footRight {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 2rem;
+  }
+
+  .footLeft {
+    width: 100%;
+  }
+  
+  .subscribe {
+    width: 100%;
+  }
+
+  .footLeft p {
+    width: 100%;
+  }
+
+  .info{
+    margin-bottom: 1rem;
+  }
+}
