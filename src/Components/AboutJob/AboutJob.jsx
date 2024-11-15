@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./AboutJob.module.css";
 import Ready from "../../Assests/aboutLady.png";
 import Down from "../../Assests/abt.png";
-import { FaCircle } from "react-icons/fa6";
+// import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 
 const AboutJob = () => {
   return (
@@ -87,66 +87,53 @@ const AboutJob = () => {
         <h3>Recent Awards and Acknowledgments</h3>
         <ul className={classes.awardList}>
           <li>
-            <FaCircle />
             NIIT recognised as ‘Best Education Company to work with” at Indian
             Education Congress & Awards 2020
           </li>
           <li>
-            <FaCircle />
             NIIT earned 37 coveted Brandon Hall Group HCM Excellence awards
             jointly with customers. The company was named a top winner for 2019
           </li>
           <li>
-            <FaCircle /> NIIT bagged seven 2019 Brandon Hall Excellence in
-            Technology Gold awards jointly with MetLife for MetLife Distribution
-            Academy
+            NIIT bagged seven 2019 Brandon Hall Excellence in Technology Gold
+            awards jointly with MetLife for MetLife Distribution Academy
           </li>
           <li>
-            <FaCircle />
             NIIT bagged Gold Learning Technologies Award 2019 jointly with
             MetLife for MetLife Distribution Academy
           </li>
           <li>
-            <FaCircle />
             NIIT ranked among the Top 20 Training Outsourcing Companies by
             TrainingIndustry.com 2019 for the twelfth consecutive year.{" "}
           </li>
           <li>
-            <FaCircle />
             NIIT named to the TrainingIndustry.com Top 20 List in Content
             Development 2019 for the ninth consecutive year.
           </li>
           <li>
-            <FaCircle />
             NIIT was selected as a 2019 Top 20 Gamification Company for the
             sixth consecutive year by TrainingIndustry.com.
           </li>
           <li>
-            <FaCircle />
             NIIT has been listed among the Top 20 Highest-Performing Learning
             Providers 2019 by the Learning and Performance Institute, UK.
           </li>
           <li>
-            <FaCircle />
             NIIT was accredited by the Learning & Performance Institute, UK
           </li>
           <li>
-            <FaCircle />
             NIIT named a Fosway 9-Grid Digital Learning Strategic Challenger
             2019
           </li>
           <li>
-            <FaCircle />
             NIIT named a leader in the Nelson Hall Learning Bps Neat Evaluation
             2019
           </li>
           <li>
-            <FaCircle />
             NIIT’s Corporate Learning Group earned a record 50 industry awards
             in 2019 including 44 Brandon Hall awards jointly with customers.
           </li>
           <li>
-            <FaCircle />
             NIIT Bagged the IDA Education Awards 2019 as the
             ‘Product/solution/service of the Year for K-12 education’ for its
             product Practice Plus, in the Education sector

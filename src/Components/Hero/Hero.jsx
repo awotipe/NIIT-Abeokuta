@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import classes from "./Hero.module.css";
-import HeroImage from "../../Assests/Logo.png";
+import HeroImage from "../../Assests/NIIT Logo.png";
 import Line from "../../Assests/line.png";
 import Slider from "react-slick";
 

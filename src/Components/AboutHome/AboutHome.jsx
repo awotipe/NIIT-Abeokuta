@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./AboutHome.module.css";
-import Logo from "../../Assests/Logo.png";
+import Logo from "../../Assests/NIIT Logo.png";
 import Student from "../../Assests/AboutImage.png";
 import Background from "../../Assests/backImage.png";
 import { Link } from "react-router-dom";

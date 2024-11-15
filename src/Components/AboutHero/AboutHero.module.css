@@ -2,7 +2,7 @@
     width: 100%;
     background-image: url(../../Assests/aboutHero.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     padding-top: 15rem;
     padding-bottom: 3rem;
     margin-bottom: 7rem;
@@ -15,4 +15,33 @@
     font-weight: 700;
     color: #fff;
     padding-left: 4rem;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;
+        background-image: url(../../Assests/aboutHero.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        margin-bottom: 0rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .container{
+        width: 100%;
+        background-image: url(../../Assests/aboutHero.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        margin-bottom: 0rem;
+    }
+
+    .container h2{
+        font-size: 20px;
+        padding-left: 2rem;
+    }
 }

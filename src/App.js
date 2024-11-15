@@ -1,9 +1,11 @@
 import './App.css';
 import { useLocation } from "react-router-dom"
 import {useLayoutEffect} from 'react';
-import Header from "./Components/Navbar/Navbar"
+// import Header from "./Components/Navbar/Navbar"
+import Header from "./Components/Header/Header"
 import Router from "./Router";
 import Footer from "./Components/Footer/Footer";
+
 
 const Wrapper = ({children}) => {
   const location = useLocation();

@@ -1,16 +1,53 @@
-import React from 'react';
+import React,  {useRef, useState} from 'react';
 import classes from "./Application.module.css";
+import emailjs from "@emailjs/browser";
+
+const Result = () => {
+  return <p>Your application has been submitted successfully.</p>;
+};
 
 const Application = () => {
+  const [result, showResult] = useState(false, true);
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_5s4trng",
+        "template_92n55td",
+        form.current,
+        "1woq1KBTuIFDNqDRe"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log(
+            "Your application has been submitted successfully."
+          );
+        },
+        (error) => {
+          console.log(error.text);
+          console.log("Message not sent");
+        }
+      );
+
+    form.current.reset();
+    showResult(true);
+  };
+  setTimeout(() => {
+    showResult(false);
+  }, 5000);
+
   return (
     <div className={classes.container}>
     <div className={classes.hero}>
      <h3>COURSE REGISTRATION</h3>
     </div>
-    <form className={classes.register}>
+    <form ref={form} onSubmit={sendEmail} className={classes.register}>
        <h3>Welcome to NIIT ABEOKUTA</h3>
        <label for="full_Name" >Full Name</label><br/>
-       <input type="first_Name" id="full_Name" name="full_Name" placeholder='Please enter your full name' required/><br/>
+       <input type="name" id="full_Name" name="full_Name" placeholder='Please enter your full name' required/><br/>
 
        <label for="Email" >Email</label><br/>
        <input type="email" id="email" name="email" placeholder='Please enter your email address' required/><br/>
@@ -33,6 +70,7 @@ const Application = () => {
        <div className={classes.submit}>
            <button>SUBMIT</button>
        </div>
+       <div className={classes.myRow}>{result ? <Result /> : null} </div>
     </form>
  </div>
   )

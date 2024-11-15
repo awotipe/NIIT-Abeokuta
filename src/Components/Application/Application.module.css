@@ -6,7 +6,7 @@
   .hero {
     background-image: url(../../Assests/RegisterHero.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     padding-top: 17rem;
     padding-bottom: 3rem;
   }
@@ -70,4 +70,44 @@
     font-weight: 500;
     line-height: 19.2px;
     color: #333333;
+  }
+
+  .myRow{
+    color:#0E3997;
+    font-family: Lato;
+    font-size: 16px;
+  }
+
+
+  @media screen and (max-width: 768px){
+    .register{
+      width: 60%;
+    }
+
+    .hero {
+      background-image: url(../../Assests/RegisterHero.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      padding-top: 7rem;
+      padding-bottom: 3rem;
+    }
+  }
+
+  @media screen and (max-width: 425px){
+    .hero {
+      background-image: url(../../Assests/RegisterHero.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      padding-top: 4rem;
+      padding-bottom: 3rem;
+    }
+
+    .hero h3 {
+      font-size: 20px;
+      margin-left: 2rem;
+    }
+
+    .register{
+      width: 80%;
+    }
   }

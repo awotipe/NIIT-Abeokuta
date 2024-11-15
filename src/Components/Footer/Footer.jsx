@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Footer.module.css";
-import Logo from "../../Assests/Logo.png";
+import Logo from "../../Assests/NIIT Logo.png";
+import Logo2 from "../../Assests/IT CORE LOGO.png";
 import Facebook from "../../Assests/facebook.png";
 import Instagram from "../../Assests/instagram.png";
 import Twitter from "../../Assests/twitter.png";
@@ -18,16 +19,23 @@ const Footer = () => {
         <hr />
         <div className={classes.footWrap}>
           <div className={classes.footLeft}>
-           <Link to="/">
-            <img src={Logo} alt="Logo" />
-            </Link>
+            <div className={classes.footLogo}>
+              <Link to="/">
+                <img src={Logo} alt="Logo" />
+                <img src={Logo2} alt="Logo" />
+              </Link>
+            </div>
             <p>
-              NIIT Agbara, Suite E, Agbara Estate shopping Mall, Beside Stanbic
-              IBTC Beach Town, Agbara.
+              NIIT Office, Suite B107/108 MKO Abiola Way, Providence Event
+              Center, by NNPC, Leme Abeokuta.Ogun state, Abeokuta, Nigeria
             </p>
-            <p><TiLocation /> Beach Town, Agbara</p>
-            <p> <IoCall /> 08094355000, 08094355003</p>
-            <p>www.niitagbara.com</p>
+            <p>
+              <TiLocation /> Suite B107/108 MKO Abiola Way, Abeokuta, Nigeria
+            </p>
+            <p>
+              <IoCall /> 08094355000, 08094355003
+            </p>
+            <p>niitabeokuta@gmail.com</p>
             <div className={classes.socials}>
               <div className={classes.media}>
                 <img src={Facebook} alt="Facebook" />
@@ -78,13 +86,15 @@ const Footer = () => {
             <h5>Stay Updated</h5>
             <form>
               <input type="email" name="email" placeholder="Enter Your Email" />
-              <button type="submit"><PiPaperPlaneTiltFill /></button>
+              <button type="submit">
+                <PiPaperPlaneTiltFill />
+              </button>
             </form>
           </div>
         </div>
         <div className={classes.copyright}>
-           <hr />
-           <p>Copyright © NIIT Abeokuta 2024. All rights reserved</p>
+          <hr />
+          <p>Copyright © NIIT Abeokuta 2024. All rights reserved</p>
         </div>
       </footer>
     </div>

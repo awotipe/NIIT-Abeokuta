@@ -56,6 +56,10 @@
   margin-bottom: 3rem;
 }
 
+.heroImage img{
+  width: 20%;
+}
+
 .line img{
   width: 100%;
 }
@@ -159,5 +163,6 @@
     float: 0;
     margin-right: 0rem;
   }
+
 
 }

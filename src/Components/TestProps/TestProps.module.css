@@ -1,0 +1,92 @@
+.container{
+    width: 100%;
+    margin-top: 12rem;
+}
+
+.innerContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -50rem;
+    position: absolute;
+    z-index: 2;
+    margin-left: 5rem;
+}
+
+.aboutText{
+    width: 50%;
+    margin-top: 3rem;
+}
+
+.aboutImage{
+    width: 40%;
+}
+
+.aboutImage img{
+    width: 100%;
+}
+
+.aboutText h5{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 27.7px;
+    letter-spacing: 0.01em;
+    color: #072554;
+    padding: 1rem 0;
+}
+
+.aboutText p{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.19px;
+    letter-spacing: 0.01em;
+    text-align: justify;
+    padding-bottom: 1rem;
+    color: #072554;
+}
+
+.aboutText button{
+    background: #0E3997;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    letter-spacing: 0.15em;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+.logo img{
+    width: 20%;
+}
+
+@media screen and (max-width: 425px){
+    .innerContainer{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0rem;
+        position: relative;
+        margin-top: -42rem;
+    }
+    
+    .aboutText{
+        width: 80%;
+        margin: auto;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    
+    .aboutImage{
+        width: 100%;
+    }
+}
