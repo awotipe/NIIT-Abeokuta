@@ -79,7 +79,7 @@ footer {
   padding-bottom: 1rem;
 }
 
-form input {
+.Form input {
   width: 80%;
   height: 38px;
   padding: 0 0.5rem;
@@ -94,7 +94,7 @@ form input {
   margin-top: -.5rem;
 }
 
-form button {
+.Form button {
   width: 20%;
   height: 33px;
   background: rgba(255, 102, 0, 1);
@@ -107,7 +107,7 @@ form button {
   border-radius: 0px 5px 5px 0px;
 }
 
-form {
+.Form {
   display: flex;
   align-items: center;
 }

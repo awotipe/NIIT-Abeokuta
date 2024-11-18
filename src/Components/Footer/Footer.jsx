@@ -84,7 +84,7 @@ const Footer = () => {
           </div>
           <div className={classes.subscribe}>
             <h5>Stay Updated</h5>
-            <form>
+            <form className={classes.Form}>
               <input type="email" name="email" placeholder="Enter Your Email" />
               <button type="submit">
                 <PiPaperPlaneTiltFill />
