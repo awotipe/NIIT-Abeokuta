@@ -27,7 +27,7 @@ const Courses = () => {
               <div className={classes.cardText}>
                 <h3>PYTHON PROGRAMMING</h3>
                 <hr/>
-                <p>Duration: 3 Months Certification: NIIT Fee: ₦100,000</p>
+                <p>Duration: 3 Months <br/>Certification: NIIT <br/>Fee: ₦200,000</p>
                 <Link to="/register">
                 <button>Register Now</button>
                 </Link>
@@ -40,7 +40,7 @@ const Courses = () => {
               <div className={classes.cardText}>
               <h3>DIGITAL MARKETING</h3>
                 <hr/>
-                <p>Duration: 6 Months Certification: NIIT Fee: ₦180,600</p>
+                <p>Duration: 4 Months <br/>Certification: NIIT <br/>Fee: ₦200,000</p>
                 <Link to="/register">
                 <button>Register Now</button>
                 </Link>
@@ -53,7 +53,7 @@ const Courses = () => {
               <div className={classes.cardText}>
               <h3>WEB DESIGN</h3>
                 <hr/>
-                <p>Duration: 6 Months Certification: NIIT Fee: ₦189,250</p>
+                <p>Duration: 6 Months <br/>Certification: NIIT <br/>Fee: ₦400,000</p>
                 <Link to="/register">
                 <button>Register Now</button>
                 </Link>
@@ -62,7 +62,9 @@ const Courses = () => {
           </div>
         </div>
         <div className={classes.butt}>
+        <Link to="/courses">
           <button>EXPLORE MORE</button>
+          </Link>
         </div>
       </div>
     </div>

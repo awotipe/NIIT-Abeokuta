@@ -1,6 +1,7 @@
 .container {
     width: 100%;
     margin-top: 5rem;
+    background: rgba(255, 102, 0, 1);
   }
   
   .hero {
@@ -25,7 +26,10 @@
     width: 90%;
     margin: auto;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
 
   .contactSide{
@@ -34,9 +38,10 @@
   
   .register{
     width: 50%;
-    background: #0E399708;
+    background: #fff;
     /* padding: 3rem 3rem 7rem 3rem; */
     border-radius: 10px;
+    padding: 3rem;
   }
   
   .register input{
@@ -45,6 +50,7 @@
     border-radius: 5px;
     margin-top: 1rem;
     margin-bottom: 2rem;
+    padding: 0.7rem 0.5rem;
   }
   
   .submit button{
@@ -59,6 +65,8 @@
     line-height: 19.2px;
     letter-spacing: 0.15em;
     margin-top: 1rem;
+    padding: 0.7rem 0;
+    color: #fff;
   }
 
   .register h3{
@@ -67,7 +75,16 @@
     font-weight: 700;
     line-height: 39.6px;
     text-align: center;
-    color: #333333;
+    color: #0e3997;
+  }
+
+  .register p{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 39.6px;
+    text-align: center;
+    color: #0e3997;
     padding-bottom: 2rem;
   }
 
@@ -85,6 +102,19 @@
     font-size: 16px;
   }
 
+  .socials{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .contactSide p{
+    padding-bottom: 1rem;
+    color: #fff;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+  }
 
   @media screen and (max-width: 768px){
     .register{
@@ -115,6 +145,17 @@
     }
 
     .register{
-      width: 80%;
+      width: 100%;
+      margin-bottom: 3rem;
+    }
+
+    .innerContainer{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+
+    .contactSide{
+      width: 100%;
     }
   }

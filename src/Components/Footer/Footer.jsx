@@ -26,11 +26,12 @@ const Footer = () => {
               </Link>
             </div>
             <p>
-              NIIT Office, Suite B107/108 MKO Abiola Way, Providence Event
-              Center, by NNPC, Leme Abeokuta.Ogun state, Abeokuta, Nigeria
-            </p>
+          NIIT is a leading Skills and Talent Development Corporation that is
+          building a manpower pool for global industry requirements.
+        </p>
             <p>
-              <TiLocation /> Suite B107/108 MKO Abiola Way, Abeokuta, Nigeria
+              <TiLocation />  NIIT Office, Suite B107/108 MKO Abiola Way, Providence Event
+              Center, by NNPC, Leme Abeokuta.Ogun state, Abeokuta, Nigeria
             </p>
             <p>
               <IoCall /> 08094355000, 08094355003
