@@ -156,6 +156,10 @@
     height: 100%;
 }
 
+@media screen and (max-width: 840px){
+
+}
+
 @media screen and (max-width: 425px){
   .btn button {
     padding: 0.5rem 0.5rem;

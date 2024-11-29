@@ -5,9 +5,9 @@
   }
   
   .hero {
-    background-image: url(../../Assests/RegisterHero.png);
+    background-image: url(../../Assests/contactHero.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     padding-top: 17rem;
     padding-bottom: 3rem;
   }
@@ -122,9 +122,9 @@
     }
 
     .hero {
-      background-image: url(../../Assests/RegisterHero.png);
+      background-image: url(../../Assests/contactHero.png);
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: cover;
       padding-top: 7rem;
       padding-bottom: 3rem;
     }
@@ -132,9 +132,9 @@
 
   @media screen and (max-width: 425px){
     .hero {
-      background-image: url(../../Assests/RegisterHero.png);
+      background-image: url(../../Assests/contactHero.png);
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: cover;
       padding-top: 4rem;
       padding-bottom: 3rem;
     }

@@ -5,6 +5,7 @@ import {useLayoutEffect} from 'react';
 import Header from "./Components/Header/Header"
 import Router from "./Router";
 import Footer from "./Components/Footer/Footer";
+import Whatsappchat from "./Components/Whatsappchat/Whatsappchat";
 
 
 const Wrapper = ({children}) => {
@@ -23,6 +24,7 @@ function App() {
         <Header/>
         <Router/>
         <Footer/>
+        <Whatsappchat/>
       </Wrapper>
     </div>
   );

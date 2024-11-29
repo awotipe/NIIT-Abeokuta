@@ -1,6 +1,7 @@
 .container {
     width: 100%;
-    background: rgba(14, 57, 151, 1);
+    /* background: rgba(14, 57, 151, 1); */
+    background: rgb(208, 206, 206);
     background-image: url(../../Assests/courseBack.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,6 +13,23 @@
     padding-top: 5rem;
     padding-bottom: 3rem;
   }
+
+  .hero {
+    background-image: url(../../Assests/Slide\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 23rem;
+    padding-bottom: 3rem;
+  }
+  
+  .hero h3 {
+    font-family: Lato;
+    font-size: 33px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 4rem;
+    text-shadow: 0px 4px 4px #00000040;
+  }
   
   .topCourses {
     text-align: center;
@@ -22,11 +40,11 @@
     font-size: 33px;
     font-weight: 600;
     line-height: 58.09px;
-    color: #fff;
+     color: #0e3997;
   }
   
   .topCourses p {
-    color: #fff;
+     color: #0e3997;
     font-family: Lato;
     font-size: 23px;
     font-weight: 500;
@@ -37,7 +55,7 @@
   .topCourses hr {
     width: 15%;
     margin: auto;
-    border: 1px solid #fff;
+    border: 1px solid #0e3997;
   }
   
   .btn button {
@@ -183,6 +201,19 @@
     
     .cardText button {
       margin-top: 0rem;
+    }
+
+    .hero {
+      background-image: url(../../Assests/Slide\ 3.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 17rem;
+      padding-bottom: 3rem;
+    }
+  
+    .hero h3 {
+      font-size: 20px;
+      margin-left: 2rem;
     }
     
   }
