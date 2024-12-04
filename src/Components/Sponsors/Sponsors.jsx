@@ -67,6 +67,9 @@ const Sponsors = () => {
           </div>
         </div>
       </div>
+      <div className={classes.head}>
+        <h2>Our Sponsors</h2>
+      </div>
       <div className={classes.sponsor2}>
         <div className={classes.iconImage}>
           <img src={Bank} alt="icon" />

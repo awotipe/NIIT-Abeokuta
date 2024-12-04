@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import classes from "./Testimonials.module.css";
 import Adesina from "../../Assests/adesina.png";
-import Taiwo from "../../Assests/Taiwo.png";
-import William from "../../Assests/William.png";
+import Favour from "../../Assests/Taiwo.png";
+import Junior from "../../Assests/William.png";
 import Slider from "react-slick";
 
 export default class Testimonials extends Component {
@@ -44,11 +44,11 @@ export default class Testimonials extends Component {
                     </div>
                     <div className={classes.wrap}>
                         <div className={classes.clientImage}>
-                            <img src={Taiwo} alt="Adesina" />
+                            <img src={Favour} alt="Adesina" />
                         </div>
                         <div className={classes.clientName}>
-                            <h5>Taiwo Babatunde</h5>
-                            <p>UI/UX DESIGNER</p>
+                            <h5>Reuben Favour</h5>
+                            <p>SOFTWARE ENGINEER</p>
                         </div>
                     </div>
                 </div>
@@ -58,11 +58,11 @@ export default class Testimonials extends Component {
                     </div>
                     <div className={classes.wrap}>
                         <div className={classes.clientImage}>
-                            <img src={William} alt="Adesina" />
+                            <img src={Junior} alt="Adesina" />
                         </div>
                         <div className={classes.clientName}>
-                            <h5>William Uchenna</h5>
-                            <p>WEB DEVELOPER</p>
+                            <h5>Junior Fuekang</h5>
+                            <p>SOFTWARE ENGINEER</p>
                         </div>
                     </div>
                 </div>

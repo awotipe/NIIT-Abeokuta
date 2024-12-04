@@ -11,11 +11,11 @@
     text-align: center;
 }
 
+.testimonySlide{
+    text-align: center;
+}
 
 .wrap {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
     width: 45%;
     margin: auto;
     margin-top: 6rem;
@@ -56,6 +56,11 @@
     color: #fff;
     /* color: rgba(52, 173, 254, 1); */
 }
+.clientImage{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
 
 .clientImage img{
     width: 100%;
@@ -84,8 +89,6 @@
     }
 
     .wrap {
-        display: flex;
-        flex-direction: column;
         gap: 0.5rem;
         width: 85%;
         margin: auto;

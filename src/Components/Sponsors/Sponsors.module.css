@@ -21,7 +21,7 @@
     display: flex;
     gap: 1rem;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .icons{
@@ -49,11 +49,20 @@
 
 .container p{
     font-family: Lato;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
-    line-height: 14.4px;
+    /* line-height: 34.4px; */
     text-align: center;
     padding-top: 1rem;
+}
+
+.head h2{
+    font-family: Lato;
+    font-size: 34px;
+    font-weight: 700;
+    /* line-height: 14.4px; */
+    text-align: center;
+    padding-top: 3rem;
 }
 
 
@@ -68,5 +77,10 @@
         display: flex;
         flex-direction: column;
         margin-top: 3rem;
+    }
+
+    .head h2{
+        font-size: 28px;
+        padding-top: 3rem;
     }
 }

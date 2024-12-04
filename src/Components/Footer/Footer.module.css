@@ -61,12 +61,28 @@ footer {
   padding-bottom: 1rem;
 }
 
-.footLeft p {
+.address h3 {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 1rem;
+}
+
+.niit p {
   font-family: Lato;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   padding-top: 1rem;
+  width: 90%;
+  align-items: center;
+}
+
+.address p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
   width: 90%;
   align-items: center;
 }
@@ -125,10 +141,10 @@ footer {
   padding-top: 1rem;
 }
 
-/* .copyright hr{
-  width: 30%;
-  margin: auto;
-} */
+a {
+  text-decoration: none;
+  color: #fff;
+}
 
 .footLogo{
   align-items: center;

@@ -7,7 +7,7 @@ import Instagram from "../../Assests/instagram.png";
 import Twitter from "../../Assests/twitter.png";
 import Youtube from "../../Assests/youtube.png";
 import Linkedin from "../../Assests/linkedin.png";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { TiLocation } from "react-icons/ti";
 import { IoCall } from "react-icons/io5";
 import { PiPaperPlaneTiltFill } from "react-icons/pi";
@@ -25,18 +25,34 @@ const Footer = () => {
                 <img src={Logo2} alt="Logo" />
               </Link>
             </div>
-            <p>
-          NIIT is a leading Skills and Talent Development Corporation that is
-          building a manpower pool for global industry requirements.
-        </p>
-            <p>
-              <TiLocation />  NIIT Office, Suite B107/108 MKO Abiola Way, Providence Event
-              Center, by NNPC, Leme Abeokuta.Ogun state, Abeokuta, Nigeria
-            </p>
-            <p>
-              <IoCall /> 08094355000, 08094355003
-            </p>
-            <p>niitabeokuta@gmail.com</p>
+            <div className={classes.niit}>
+              <p>
+                NIIT is a leading Skills and Talent Development Corporation that
+                is building a manpower pool for global industry requirements.
+              </p>
+            </div>
+            <div className={classes.address}>
+              <h3>Agbara Office</h3>
+              <p>
+                <TiLocation />Suite E, Agbara Estate Shopping Mall
+                Beside Stanbic IBTC Bank, Beach Town, Agbara, Ogun State
+              </p>
+              <p>
+                <IoCall /> 07066968813, 08094355003
+              </p>
+              <p>niitagbara@gmail.com</p>
+            </div>
+            <div className={classes.address}>
+              <h3>Abeokuta Office</h3>
+              <p>
+                <TiLocation /> Suite B107/108 MKO Abiola Way,
+                Providence Event Center, by NNPC, Leme Abeokuta, Ogun State, Nigeria
+              </p>
+              <p>
+                <IoCall /> 09169842806, 09169842803
+              </p>
+              <p>niitabeokuta@gmail.com</p>
+            </div>
             <div className={classes.socials}>
               <div className={classes.media}>
                 <img src={Facebook} alt="Facebook" />
@@ -58,20 +74,34 @@ const Footer = () => {
           <div className={classes.footRight}>
             <div className={classes.info}>
               <h5>Menu</h5>
+              <NavLink
+              to="/">
               <p>Home</p>
-              <p>Courses</p>
-              <p>Blog</p>
+              </NavLink>
+              <NavLink
+              to="/aboutus">
               <p>About Us</p>
+              </NavLink>
+              <NavLink
+              to="/contactus">
               <p>Contact Us</p>
-              <p>Terms & Policy</p>
+              </NavLink>
+              <NavLink
+              to="/courses">
+              <p>Courses</p>
+              </NavLink>
+              <NavLink
+              to="/register">
+              <p>Register</p>
+              </NavLink>
             </div>
 
             <div className={classes.info}>
               <h5>Account</h5>
               <p>My Account</p>
               <p>Checkout</p>
-              <p>My Cart</p>
-              <p>My catalog</p>
+              <p>My Cert</p>
+              <p>My Catalog</p>
             </div>
 
             <div className={classes.info}>
@@ -95,7 +125,7 @@ const Footer = () => {
         </div>
         <div className={classes.copyright}>
           <hr />
-          <p>Copyright © NIIT Abeokuta 2024. All rights reserved</p>
+          <p>Copyright © NIIT/ITCORE 2024. All Rights Reserved</p>
         </div>
       </footer>
     </div>
