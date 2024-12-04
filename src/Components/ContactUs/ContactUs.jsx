@@ -54,17 +54,34 @@ const ContactUs = () => {
     </div>
     <div className={classes.innerContainer}>
     <div className={classes.contactSide}>
-            <p>
-              NIIT Office, Suite B107/108 MKO Abiola Way, Providence Event
-              Center, by NNPC, Leme Abeokuta.Ogun state, Abeokuta, Nigeria
-            </p>
-            <p>
-              <TiLocation /> Suite B107/108 MKO Abiola Way, Abeokuta, Nigeria
-            </p>
-            <p>
-              <IoCall /> 08094355000, 08094355003
-            </p>
-            <p>niitabeokuta@gmail.com</p>
+    <div className={classes.niit}>
+              <p>
+                NIIT is a leading Skills and Talent Development Corporation that
+                is building a manpower pool for global industry requirements.
+              </p>
+            </div>
+            <div className={classes.address}>
+              <h3>Agbara Office</h3>
+              <p>
+                <TiLocation />Suite E, Agbara Estate Shopping Mall
+                Beside Stanbic IBTC Bank, Beach Town, Agbara, Ogun State
+              </p>
+              <p>
+                <IoCall /> 07066968813, 08094355003
+              </p>
+              <p>niitagbara@gmail.com</p>
+            </div>
+            <div className={classes.address}>
+              <h3>Abeokuta Office</h3>
+              <p>
+                <TiLocation /> Suite B107/108 MKO Abiola Way,
+                Providence Event Center, by NNPC, Leme Abeokuta, Ogun State, Nigeria
+              </p>
+              <p>
+                <IoCall /> 09169842806, 09169842803
+              </p>
+              <p>niitabeokuta@gmail.com</p>
+            </div>
             <div className={classes.socials}>
               <div className={classes.media}>
                 <img src={Facebook} alt="Facebook" />

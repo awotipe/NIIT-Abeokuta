@@ -45,7 +45,7 @@ export default class Hero extends Component {
       <div className={classes.hero}>
         <h2>TRANSOFRM YOURSELF FROM A GRADUATE TO A FULL STACK PROFESSIONAL</h2>
         <p>
-        join our post graduate programme in FULL STACK java programming and get job-ready with NIIT Digital.
+        Join our post graduate programme in FULL STACK java programming and get job-ready with NIIT Digital.
         </p>
       </div>
     </div>
