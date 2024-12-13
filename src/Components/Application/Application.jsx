@@ -13,12 +13,12 @@ const Application = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        "service_5s4trng",
-        "template_92n55td",
-        form.current,
-        "1woq1KBTuIFDNqDRe"
-      )
+    .sendForm(
+      "service_pim38pr",
+      "template_ycz6w8l",
+      form.current,
+      "1qip7RQy5uzwiSAWd"
+    )
       .then(
         (result) => {
           console.log(result.text);
@@ -56,17 +56,17 @@ const Application = () => {
        <label for="phone_Number" >Phone Number</label><br/>
        <input type="phone" id="phone" name="phone"  placeholder='+234 80 xxx xxx xx' required/><br/>
 
-       <label for="address" >Location</label><br/>
+       <label for="address" >Address</label><br/>
        <input type="address" id="address" name="address" placeholder='Please enter your house address' required/><br/>
 
        <label for="gender" >Gender</label><br/>
-       <input type="text" id="gender" name="gender" placeholder='Please select your Gender' required/><br/>
+       <input type="text" id="gender" name="gender" placeholder='Male or Female' required/><br/>
 
        <label for="course" >Course to Study</label><br/>
-       <input type="text" id="course" name="course" placeholder='Please select your Course to Study' required/><br/>
+       <input type="text" id="course" name="course" placeholder='Please let us know your preffered course' required/><br/>
 
        <label for="attendance" >Mode of Attendance</label><br/>
-       <input type="text" id="attendance" name="attendance" placeholder='Please select your prefered Mode' required/><br/>
+       <input type="text" id="attendance" name="attendance" placeholder='Onsite or Online' required/><br/>
        
        <div className={classes.submit}>
            <button>SUBMIT</button>

@@ -69,7 +69,9 @@
     background: #fff;
     border: none;
     cursor: pointer;
-    margin: 2rem 0.1rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    margin-right: 0.2rem;
   }
   
   .btn button:hover {

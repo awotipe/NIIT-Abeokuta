@@ -13,10 +13,12 @@ import HDB from "../../Assests/HDB 1.png";
 import Solution from "../../Assests/IT Solution Services 1.png";
 import Neptune from "../../Assests/Neptune .png";
 
-
 const Sponsors = () => {
   return (
     <div className={classes.container}>
+      <div className={classes.head}>
+        <h2>Our Sponsors</h2>
+      </div>
       <div className={classes.sponsor}>
         <div className={classes.icons}>
           <div className={classes.iconImage}>
@@ -67,9 +69,6 @@ const Sponsors = () => {
           </div>
         </div>
       </div>
-      <div className={classes.head}>
-        <h2>Our Sponsors</h2>
-      </div>
       <div className={classes.sponsor2}>
         <div className={classes.iconImage}>
           <img src={Bank} alt="icon" />
@@ -90,7 +89,10 @@ const Sponsors = () => {
           <img src={Neptune} alt="icon" />
         </div>
       </div>
-      <p>Disclaimer: The aforementioned companies have no obligation to recruit NIIT students each year</p>
+      <p>
+        Disclaimer: The aforementioned companies have no obligation to recruit
+        NIIT students each year
+      </p>
     </div>
   );
 };

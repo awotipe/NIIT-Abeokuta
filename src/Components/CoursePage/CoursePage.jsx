@@ -24,6 +24,14 @@ const CoursePage = () => {
           <div className={classes.line}>
             <hr />
           </div>
+          <div className={classes.btn}>
+          <Link to="/courses">
+            <button className={classes.shortTerm}>SHORT TERM COURSE</button>
+          </Link>
+          <Link to="/mms">
+            <button className={classes.longTerm}>LONG TERM COURSE</button>
+          </Link>
+          </div>
         </div>
         <div className={classes.cardWrap}>
           <div className={classes.card}>

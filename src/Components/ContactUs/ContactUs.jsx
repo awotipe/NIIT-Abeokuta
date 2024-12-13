@@ -4,14 +4,14 @@ import emailjs from "@emailjs/browser";
 import Facebook from "../../Assests/facebook.png";
 import Instagram from "../../Assests/instagram.png";
 import Twitter from "../../Assests/twitter.png";
-import Youtube from "../../Assests/youtube.png";
+// import Youtube from "../../Assests/youtube.png";
 import Linkedin from "../../Assests/linkedin.png";
 // import { Link } from "react-router-dom";
 import { TiLocation } from "react-icons/ti";
 import { IoCall } from "react-icons/io5";
 
 const Result = () => {
-  return <p>Your application has been submitted successfully.</p>;
+  return <p>Your message has been sent successfully.</p>;
 };
 
 const ContactUs = () => {
@@ -22,16 +22,16 @@ const ContactUs = () => {
 
     emailjs
       .sendForm(
-        "service_5s4trng",
-        "template_92n55td",
+        "service_pim38pr",
+        "template_ycz6w8l",
         form.current,
-        "1woq1KBTuIFDNqDRe"
+        "1qip7RQy5uzwiSAWd"
       )
       .then(
         (result) => {
           console.log(result.text);
           console.log(
-            "Your application has been submitted successfully."
+            "Your message has been sent successfully."
           );
         },
         (error) => {
@@ -84,16 +84,19 @@ const ContactUs = () => {
             </div>
             <div className={classes.socials}>
               <div className={classes.media}>
+                <a href="https://www.facebook.com/share/1BECYvYqmo/">
                 <img src={Facebook} alt="Facebook" />
+                </a>
               </div>
               <div className={classes.media}>
+                <a href="https://www.instagram.com/niit_agbara_center/profilecard/?igsh=b3EwbXB3b21xeHAx">
                 <img src={Instagram} alt="Instagram" />
+                </a>
               </div>
               <div className={classes.media}>
+                <a href="https://x.com/niit_abeokuta?t=Bm-iln8Fyxznt2M3onrd4w&s=09">
                 <img src={Twitter} alt="Twitter" />
-              </div>
-              <div classname={classes.media}>
-                <img src={Youtube} alt="Youtube" />
+                </a>
               </div>
               <div className={classes.media}>
                 <img src={Linkedin} alt="Linkedin" />
@@ -112,7 +115,7 @@ const ContactUs = () => {
        <label for="phone_Number" >Phone Number</label><br/>
        <input type="phone" id="phone" name="phone"  placeholder='+234 80 xxx xxx xx' required/><br/>
 
-       <label for="address" >Location</label><br/>
+       <label for="address" >Address</label><br/>
        <input type="address" id="address" name="address" placeholder='Please enter your house address' required/><br />
        
        <div className={classes.submit}>

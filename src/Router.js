@@ -5,6 +5,7 @@ import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Courses from "./Pages/Courses/Course";
 import Register from "./Pages/Register/Register";
+import Engineering from "./Components/MMS/MMS";
 
 const Router = () => {
   return useRoutes([
@@ -26,6 +27,11 @@ const Router = () => {
     {
       path: "/courses",
       element: <Courses />,
+    },
+
+    {
+      path: "/mms",
+      element: <Engineering />,
     },
 
     {

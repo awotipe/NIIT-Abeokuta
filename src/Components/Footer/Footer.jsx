@@ -5,7 +5,7 @@ import Logo2 from "../../Assests/IT CORE LOGO.png";
 import Facebook from "../../Assests/facebook.png";
 import Instagram from "../../Assests/instagram.png";
 import Twitter from "../../Assests/twitter.png";
-import Youtube from "../../Assests/youtube.png";
+// import Youtube from "../../Assests/youtube.png";
 import Linkedin from "../../Assests/linkedin.png";
 import { Link, NavLink } from "react-router-dom";
 import { TiLocation } from "react-icons/ti";
@@ -54,17 +54,20 @@ const Footer = () => {
               <p>niitabeokuta@gmail.com</p>
             </div>
             <div className={classes.socials}>
-              <div className={classes.media}>
+            <div className={classes.media}>
+                <a href="https://www.facebook.com/share/1BECYvYqmo/">
                 <img src={Facebook} alt="Facebook" />
+                </a>
               </div>
               <div className={classes.media}>
+                <a href="https://www.instagram.com/niit_agbara_center/profilecard/?igsh=b3EwbXB3b21xeHAx">
                 <img src={Instagram} alt="Instagram" />
+                </a>
               </div>
               <div className={classes.media}>
+                <a href="https://x.com/niit_abeokuta?t=Bm-iln8Fyxznt2M3onrd4w&s=09">
                 <img src={Twitter} alt="Twitter" />
-              </div>
-              <div classname={classes.media}>
-                <img src={Youtube} alt="Youtube" />
+                </a>
               </div>
               <div className={classes.media}>
                 <img src={Linkedin} alt="Linkedin" />
@@ -106,10 +109,9 @@ const Footer = () => {
 
             <div className={classes.info}>
               <h5>Stay Connected</h5>
-              <p>Facebook</p>
-              <p>Instagram</p>
-              <p>Twitter</p>
-              <p>Youtube</p>
+              <p> <a href="https://www.facebook.com/share/1BECYvYqmo/">Facebook</a></p>
+              <p><a href="https://www.instagram.com/niit_agbara_center/profilecard/?igsh=b3EwbXB3b21xeHAx">Instagram</a></p>
+              <p> <a href="https://x.com/niit_abeokuta?t=Bm-iln8Fyxznt2M3onrd4w&s=09">Twitter</a></p>
               <p>Linkedin</p>
             </div>
           </div>

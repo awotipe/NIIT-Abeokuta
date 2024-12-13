@@ -1,0 +1,127 @@
+
+.hero {
+    background-image: url(../../Assests/Slide\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 23rem;
+    padding-bottom: 3rem;
+  }
+  
+  .hero h3 {
+    font-family: Lato;
+    font-size: 33px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 4rem;
+    text-shadow: 0px 4px 4px #00000040;
+  }
+
+  .about{
+    width: 70%;
+    margin: auto;
+    margin-top: 4rem;
+  }
+
+  .aboutTop{
+    background: rgba(14, 57, 151, 1);
+    padding: 0.5rem 1rem;
+  }
+
+  .aboutTop h2{
+    color: #fff;
+    font-family: Lato;
+    font-size: 33px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .aboutBody{
+    display: flex;
+    gap: 0.3rem;
+  }
+
+  .aboutBody p{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .aboutBody1{
+    width: 50%;
+    background: #edebeb;
+    padding: 2rem;
+  }
+
+  .aboutBody2{
+    width: 50%;
+    background: #edebeb;
+    padding: 2rem;
+  }
+
+  .curriculum{
+    width: 80%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .curriculum img{
+    width: 100%;
+  }
+
+  .design{
+    width: 50%;
+    margin: auto;
+    margin-top: 4rem;
+  }
+
+  .design img{
+    width: 100%;
+  }
+
+
+
+
+  @media screen and (max-width: 800px){
+    .about{
+      width: 90%;
+    }
+
+    .curriculum{
+      width: 90%;
+    }
+  
+  }
+
+  @media screen and (max-width: 425px){
+  
+    .hero {
+      background-image: url(../../Assests/Slide\ 3.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 17rem;
+      padding-bottom: 3rem;
+    }
+  
+    .hero h3 {
+      font-size: 20px;
+      margin-left: 2rem;
+    }
+
+    .aboutBody{
+      display: block;    
+    }
+
+    .aboutBody1{
+      width: 100%;
+    }
+  
+    .aboutBody2{
+      width: 100%;
+    }
+
+    .design{
+      width: 90%;
+    }
+    
+  }

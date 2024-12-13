@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Courses.module.css";
 import Student from "../../Assests/python.png";
-import Student2 from "../../Assests/digital.png";
+import Student2 from "../../Assests/software.png";
 import Student3 from "../../Assests/web.png";
 import { Link } from "react-router-dom";
 
@@ -16,8 +16,12 @@ const Courses = () => {
             <hr />
           </div>
           <div className={classes.btn}>
+          <Link to="/courses">
             <button className={classes.shortTerm}>SHORT TERM COURSE</button>
+          </Link>
+          <Link to="/mms">
             <button className={classes.longTerm}>LONG TERM COURSE</button>
+          </Link>
           </div>
         </div>
         <div className={classes.cardWrap}>
@@ -27,7 +31,7 @@ const Courses = () => {
               <div className={classes.cardText}>
                 <h3>PYTHON PROGRAMMING</h3>
                 <hr/>
-                <p>Duration: 3 Months <br/>Certification: NIIT <br/>Fee: ₦200,000</p>
+                <p>Duration: 2 Months <br/>Certification: NIIT <br/>Fee: ₦200,000</p>
                 <Link to="/register">
                 <button>Register Now</button>
                 </Link>
@@ -38,9 +42,9 @@ const Courses = () => {
             <div className={classes.cardImage}>
               <img src={Student2} alt="Student" className={classes.myImages} />
               <div className={classes.cardText}>
-              <h3>DIGITAL MARKETING</h3>
+              <h3>SOFTWARE ENGINEERING</h3>
                 <hr/>
-                <p>Duration: 4 Months <br/>Certification: NIIT <br/>Fee: ₦200,000</p>
+                <p>Duration: 2 Years (4 Semesters) <br/>Certification: NIIT <br/>Fee: ₦650,000 per semester</p>
                 <Link to="/register">
                 <button>Register Now</button>
                 </Link>
