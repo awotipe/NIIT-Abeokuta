@@ -99,7 +99,9 @@ const ContactUs = () => {
                 </a>
               </div>
               <div className={classes.media}>
+                <a href="https://www.linkedin.com/company/niit-abeokuta/">
                 <img src={Linkedin} alt="Linkedin" />
+                </a>
               </div>
             </div>
           </div>
