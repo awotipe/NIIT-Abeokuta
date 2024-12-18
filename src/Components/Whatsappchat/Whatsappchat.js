@@ -6,7 +6,7 @@ const Whatsappchat = () => {
   return (
     <div className={classes.container}>
     <div className={classes.sideText}>
-      <p>Chait with us</p>
+      <p>Chat with us</p>
     </div>
     <div className={classes.Whatsappchat}>
         <a href="https://wa.link/7hopug">

@@ -25,7 +25,7 @@ const Sponsors = () => {
             <img src={country} alt="icon" />
           </div>
           <div className={classes.iconText}>
-            <h5>PRESENT IN 40 COUNTIRES WORLDWIDE</h5>
+            <h5>PRESENT IN 40 COUNTRIES WORLDWIDE</h5>
           </div>
         </div>
         <div className={classes.icons}>
