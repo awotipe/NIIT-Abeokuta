@@ -19,6 +19,32 @@ const Sponsors = () => {
       <div className={classes.head}>
         <h2>Our Sponsors</h2>
       </div>
+      
+      <div className={classes.sponsor2}>
+        <div className={classes.iconImage}>
+          <img src={Bank} alt="icon" />
+        </div>
+        <div className={classes.iconImage}>
+          <img src={Finoculus} alt="icon" />
+        </div>
+        <div className={classes.iconImage}>
+          <img src={Sentienze} alt="icon" />
+        </div>
+        <div className={classes.iconImage}>
+          <img src={HDB} alt="icon" />
+        </div>
+        <div className={classes.iconImage}>
+          <img src={Solution} alt="icon" />
+        </div>
+        <div className={classes.iconImage}>
+          <img src={Neptune} alt="icon" />
+        </div>
+      </div>
+      <p>
+        Disclaimer: The aforementioned companies have no obligation to recruit
+        NIIT students each year
+      </p>
+
       <div className={classes.sponsor}>
         <div className={classes.icons}>
           <div className={classes.iconImage}>
@@ -69,30 +95,6 @@ const Sponsors = () => {
           </div>
         </div>
       </div>
-      <div className={classes.sponsor2}>
-        <div className={classes.iconImage}>
-          <img src={Bank} alt="icon" />
-        </div>
-        <div className={classes.iconImage}>
-          <img src={Finoculus} alt="icon" />
-        </div>
-        <div className={classes.iconImage}>
-          <img src={Sentienze} alt="icon" />
-        </div>
-        <div className={classes.iconImage}>
-          <img src={HDB} alt="icon" />
-        </div>
-        <div className={classes.iconImage}>
-          <img src={Solution} alt="icon" />
-        </div>
-        <div className={classes.iconImage}>
-          <img src={Neptune} alt="icon" />
-        </div>
-      </div>
-      <p>
-        Disclaimer: The aforementioned companies have no obligation to recruit
-        NIIT students each year
-      </p>
     </div>
   );
 };
